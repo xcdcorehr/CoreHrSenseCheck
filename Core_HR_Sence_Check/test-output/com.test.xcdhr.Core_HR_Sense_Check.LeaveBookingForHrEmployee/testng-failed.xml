@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [com.test.xcdhr.Core_HR_Sense_Check.LeaveBookingForHrEmployee]">
+  <test thread-count="5" name="Annual leave booking for days worker(failed)">
+    <classes>
+      <class name="com.test.xcdhr.Core_HR_Sense_Check.HrEmployeeLeaveBooking.TC001_BookAnnualLeaveForDaysWorkerAndVerify">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setupLrAndSubmit" invocation-numbers="0"/>
+          <include name="endTest1"/>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+          <include name="loginAndClickMyDetail"/>
+        </methods>
+      </class> <!-- com.test.xcdhr.Core_HR_Sense_Check.HrEmployeeLeaveBooking.TC001_BookAnnualLeaveForDaysWorkerAndVerify -->
+    </classes>
+  </test> <!-- Annual leave booking for days worker(failed) -->
+</suite> <!-- Failed suite [com.test.xcdhr.Core_HR_Sense_Check.LeaveBookingForHrEmployee] -->

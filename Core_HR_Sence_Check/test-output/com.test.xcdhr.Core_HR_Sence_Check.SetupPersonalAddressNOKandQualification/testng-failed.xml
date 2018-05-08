@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [com.test.xcdhr.Core_HR_Sence_Check.SetupPersonalAddressNOKandQualification]">
+  <test thread-count="5" name="Setup personal address(failed)">
+    <classes>
+      <class name="com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualification.TC001_SetupPersonalAddressAndVerify">
+        <methods>
+          <include name="setupPersonalAddress"/>
+          <include name="endTest1"/>
+          <include name="verifyAddressButtonAndClick"/>
+          <include name="loginAndClickMyDetail"/>
+          <include name="getPersonalData"/>
+          <include name="setup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualification.TC001_SetupPersonalAddressAndVerify -->
+    </classes>
+  </test> <!-- Setup personal address(failed) -->
+  <test thread-count="5" name="Setup NOK(failed)">
+    <classes>
+      <class name="com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualification.TC002_SetupNextOfKinAndVerify">
+        <methods>
+          <include name="endTest1"/>
+          <include name="setupNok"/>
+          <include name="setup"/>
+          <include name="getNokData"/>
+          <include name="loginAndClickMyDetail"/>
+          <include name="beforeMethod"/>
+          <include name="verifyNokButtonAndClick"/>
+        </methods>
+      </class> <!-- com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualification.TC002_SetupNextOfKinAndVerify -->
+    </classes>
+  </test> <!-- Setup NOK(failed) -->
+  <test thread-count="5" name="Setup Qualification(failed)">
+    <classes>
+      <class name="com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualification.TC003_SetupQualificationAndVerify">
+        <methods>
+          <include name="setupQualification"/>
+          <include name="endTest1"/>
+          <include name="getQualificationData"/>
+          <include name="setup"/>
+          <include name="loginAndClickMyDetail"/>
+          <include name="verifyQualificationButtonAndClick"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualification.TC003_SetupQualificationAndVerify -->
+    </classes>
+  </test> <!-- Setup Qualification(failed) -->
+</suite> <!-- Failed suite [com.test.xcdhr.Core_HR_Sence_Check.SetupPersonalAddressNOKandQualification] -->

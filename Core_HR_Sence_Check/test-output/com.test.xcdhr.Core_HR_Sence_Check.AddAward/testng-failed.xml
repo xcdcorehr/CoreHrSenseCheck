@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [com.test.xcdhr.Core_HR_Sence_Check.AddAward]">
+  <test thread-count="5" name="Add award where award type is bonus(failed)">
+    <parameter name="earliestPaymentDate" value="01/03/2018"/>
+    <parameter name="awardDate" value="01/03/2018"/>
+    <parameter name="typeAward" value="Bonus"/>
+    <parameter name="amountOfPayment" value="2000"/>
+    <classes>
+      <class name="com.test.xcdhr.Core_HR_Sense_Check.AddAward.TC001_AddAwardWithAwardTypeBonus">
+        <methods>
+          <include name="VerifyAndSetupAward"/>
+          <include name="afterMethod"/>
+          <include name="verifyAwardButton"/>
+          <include name="endTest1"/>
+          <include name="searchEmployeeForSetupOtherPaymentDeduction"/>
+          <include name="setup"/>
+          <include name="beforeMethod"/>
+          <include name="clickOnSearchedEmployeeAndVerifyRewardTab"/>
+        </methods>
+      </class> <!-- com.test.xcdhr.Core_HR_Sense_Check.AddAward.TC001_AddAwardWithAwardTypeBonus -->
+    </classes>
+  </test> <!-- Add award where award type is bonus(failed) -->
+</suite> <!-- Failed suite [com.test.xcdhr.Core_HR_Sence_Check.AddAward] -->

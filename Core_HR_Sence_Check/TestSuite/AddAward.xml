@@ -1,0 +1,46 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="com.test.xcdhr.Core_HR_Sence_Check.AddAward">
+
+
+ <test name="Add award where award type is bonus">
+    <parameter name="typeAward" value="Bonus"/>
+	<parameter name="awardDate" value="01/03/2018"/>
+   	<parameter name="earliestPaymentDate" value="01/03/2018"/>
+    <parameter name="amountOfPayment" value="2000"/>
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sense_Check.AddAward.TC001_AddAwardWithAwardTypeBonus" ></class>  
+    </classes>
+</test> 
+
+<!-- <test name="Verify award where award type is bonus">
+    <parameter name="verifyPaymentAmount" value="GBP 2,000.00"/>
+       <parameter name="verifyRecordType" value="Bonus [Change]"/>
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sence_Check.AddAward.TC001_VerifyAwardWithAwardTypeBonus" ></class>  
+    </classes>
+</test>
+
+ <test name="Add award where award type is commission">
+    <parameter name="typeAward" value="Commission"/>
+	<parameter name="awardDate" value="01/03/2018"/>
+    <parameter name="amountOfPayment" value="3000"/>
+   	<parameter name="earliestPaymentDate" value="01/03/2018"/>
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sence_Check.AddAward.TC002_AddAwardWithAwardTypeCommission" ></class>  
+    </classes>
+</test> 
+
+<test name="Verify award where award type is commission">
+    <parameter name="verifyPaymentAmount" value="GBP 3,000.00"/>
+       <parameter name="verifyRecordType" value="Commission [Change]"/>
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sence_Check.AddAward.TC002_VerifyAwardWithAwardTypeCommission" ></class>  
+    </classes>
+</test>
+
+
+
+
+ -->
+
+</suite>

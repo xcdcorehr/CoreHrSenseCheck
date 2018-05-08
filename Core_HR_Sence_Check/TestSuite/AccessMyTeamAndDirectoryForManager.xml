@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="com.test.xcdhr.Core_HR_Sence_Check.AccessMyTeamAndDirectoryForManager">
+
+
+   <test name="Access My Team and verify">
+    
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sense_Check.MyTeamAndDirectoryForManager.TC001_MyTeamAccessAndVerify" ></class>  
+    </classes>
+</test>   
+	
+	<!-- <test name="Access directory and verify">
+    
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sense_Check.MyTeamAndDirectoryForManager.TC002_DirectoryAccessAndVerify" ></class>  
+    </classes>
+</test>   --> 			
+
+
+
+
+</suite>

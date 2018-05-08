@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [com.test.xcdhr.Core_HR_Sence_Check.AccessMyTeamAndDirectoryForManager]">
+  <test thread-count="5" name="Access My Team and verify(failed)">
+    <classes>
+      <class name="com.test.xcdhr.Core_HR_Sense_Check.MyTeamAndDirectoryForManager.TC001_MyTeamAccessAndVerify">
+        <methods>
+          <include name="endTest1"/>
+          <include name="loginAndClickMyTeamTab"/>
+          <include name="verifyMyTeamAccess"/>
+          <include name="setup"/>
+          <include name="beforeMethod"/>
+          <include name="ClickViewEmployee"/>
+        </methods>
+      </class> <!-- com.test.xcdhr.Core_HR_Sense_Check.MyTeamAndDirectoryForManager.TC001_MyTeamAccessAndVerify -->
+    </classes>
+  </test> <!-- Access My Team and verify(failed) -->
+</suite> <!-- Failed suite [com.test.xcdhr.Core_HR_Sence_Check.AccessMyTeamAndDirectoryForManager] -->

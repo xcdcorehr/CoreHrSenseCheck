@@ -1,0 +1,66 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="com.test.xcdhr.Core_HR_Sence_Check.AddPaymentOrDeduction">
+
+
+   <test name="Add paymentDeduction where type is One Off Benefit">
+   <parameter name="typeOfPaymenttDeduction" value="Accommodation"/>
+	<parameter name="employerrContribution" value="300"/>
+	<parameter name="empContribution" value="200"/>
+    
+  
+  
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sence_Check.AddPaymentOrDeduction.TC001_AddPaymentOrDeductionOneOffBenefitType" ></class>  
+    </classes>
+</test> 
+
+ <test name="Verify paymentDeduction where type is One Off Benefit">
+   <parameter name="verifyPaymentAmount" value="GBP 500.00"/>
+	<parameter name="verifyRecordType" value="One off benefit [Change]"/>
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sence_Check.AddPaymentOrDeduction.TC001_VerifyAddPaymentOrDeductionOneOffBenefitType" ></class>  
+    </classes>
+</test>
+
+<test name="Add paymentDeduction where type is One Off deduction">
+   <parameter name="typeOfPaymenttDeduction" value="Advance recovery"/>
+	<parameter name="paymentAmount" value="200"/>
+   
+    
+  
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sence_Check.AddPaymentOrDeduction.TC002_AddPaymentOrDeductionOneOffDeductionType" ></class>  
+    </classes>
+</test>
+
+<test name="Verify paymentDeduction where type is One Off deduction">
+   <parameter name="verifyPaymentAmount" value="GBP 200.00"/>
+	<parameter name="verifyRecordType" value="One off deduction [Change]"/>
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sence_Check.AddPaymentOrDeduction.TC002_VerifyAddPaymentOrDeductionOneOffDeductionType" ></class>  
+    </classes>
+</test> 
+
+ <test name="Add paymentDeduction where type is One Off payment">
+   <parameter name="typeOfPaymenttDeduction" value="Accommodation"/>
+	<parameter name="paymentAmount" value="300"/>
+   
+    
+  
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sence_Check.AddPaymentOrDeduction.TC003_AddPaymentOrDeductionOneOffPaymentType" ></class>  
+    </classes>
+</test> 
+
+<test name="Verify paymentDeduction where type is One Off payment">
+   <parameter name="verifyPaymentAmount" value="GBP 300.00"/>
+	<parameter name="verifyRecordType" value="One off payment [Change]"/>
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sence_Check.AddPaymentOrDeduction.TC003_VerifyAddPaymentOrDeductionOneOffPaymentType" ></class>  
+    </classes>
+</test>
+ 
+ 
+
+
+</suite>

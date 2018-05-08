@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [com.test.xcdhr.Core_HR_Sence_Check.ChangeJobRole]">
+  <test thread-count="5" name="Verify Change job role with pattern type RWPH(failed)">
+    <parameter name="SecondJobTitle" value="Senior Tester"/>
+    <classes>
+      <class name="com.test.xcdhr.Core_HR_Sence_Check.ChangeJobRole.TC002_Verify_Change_JR_With_PatternType_RWPH">
+        <methods>
+          <include name="setup"/>
+          <include name="searchCreatedEmployeeForChangeJR"/>
+          <include name="verifySecondJobTitle"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+          <include name="clickOnSearchedEmployeeAndJobTitle"/>
+        </methods>
+      </class> <!-- com.test.xcdhr.Core_HR_Sence_Check.ChangeJobRole.TC002_Verify_Change_JR_With_PatternType_RWPH -->
+    </classes>
+  </test> <!-- Verify Change job role with pattern type RWPH(failed) -->
+</suite> <!-- Failed suite [com.test.xcdhr.Core_HR_Sence_Check.ChangeJobRole] -->

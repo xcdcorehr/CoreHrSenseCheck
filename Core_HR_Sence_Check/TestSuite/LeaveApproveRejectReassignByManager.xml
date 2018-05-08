@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="com.test.xcdhr.Core_HR_Sence_Check.LeaveBookingForHrEmployee">
+
+
+  <test name="Approve leave request by manager">
+    
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sense_Check.ManagerTLapproveRejectReassignLR.TC001_ApproveLrAndVerify" ></class>  
+    </classes>
+</test>    
+   
+ <test name="Reject leave request HR Manager">
+    
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sense_Check.ManagerTLapproveRejectReassignLR.TC002_RejectLrAndVerify" ></class>  
+    </classes>
+</test>  
+<!-- 
+<test name="Reject leave request HR Manager">
+    
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sense_Check.ManagerTLapproveRejectReassignLR.TC003_ReassignLrAndVerify" ></class>  
+    </classes>
+</test>   -->
+
+
+
+</suite>

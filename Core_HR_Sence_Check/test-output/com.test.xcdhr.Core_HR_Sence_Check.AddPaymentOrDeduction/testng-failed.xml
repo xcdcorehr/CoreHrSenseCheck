@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [com.test.xcdhr.Core_HR_Sence_Check.AddPaymentOrDeduction]">
+  <test thread-count="5" name="Verify paymentDeduction where type is One Off Benefit(failed)">
+    <parameter name="verifyPaymentAmount" value="GBP 500.00"/>
+    <parameter name="verifyRecordType" value="One off benefit [Change]"/>
+    <classes>
+      <class name="com.test.xcdhr.Core_HR_Sence_Check.AddPaymentOrDeduction.TC001_VerifyAddPaymentOrDeductionOneOffBenefitType">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="verifyPaymentDedutonAndClick"/>
+          <include name="verifyPaymentAmount" invocation-numbers="0"/>
+          <include name="endTest"/>
+          <include name="clickOnSearchedEmployeeAndRewardTab"/>
+          <include name="beforeMethod"/>
+          <include name="searchEmployeeRecord"/>
+          <include name="verifyRecordType"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.test.xcdhr.Core_HR_Sence_Check.AddPaymentOrDeduction.TC001_VerifyAddPaymentOrDeductionOneOffBenefitType -->
+    </classes>
+  </test> <!-- Verify paymentDeduction where type is One Off Benefit(failed) -->
+</suite> <!-- Failed suite [com.test.xcdhr.Core_HR_Sence_Check.AddPaymentOrDeduction] -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [com.test.xcdhr.Core_HR_Sence_Check.AddOherPaymentOrDeduction]">
+  <test thread-count="5" name="Verify other payment or deduction where benefit type is benefit(failed)">
+    <parameter name="totalAnnualContribution" value="GBP 10,800.00"/>
+    <classes>
+      <class name="com.test.xcdhr.Core_HR_Sence_Check.AddOherPaymentOrDeduction.TC002_VerifyOtherPaymentOrDeductionBenefitTypeBenefit">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="searchEmployeeRecord"/>
+          <include name="verifyOtherPaymentDeductionAndClicked"/>
+          <include name="clickOnSearchedEmployeeAndRewardTab"/>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+          <include name="closeBroswe"/>
+          <include name="verifyTotalAnnualContribution"/>
+        </methods>
+      </class> <!-- com.test.xcdhr.Core_HR_Sence_Check.AddOherPaymentOrDeduction.TC002_VerifyOtherPaymentOrDeductionBenefitTypeBenefit -->
+    </classes>
+  </test> <!-- Verify other payment or deduction where benefit type is benefit(failed) -->
+</suite> <!-- Failed suite [com.test.xcdhr.Core_HR_Sence_Check.AddOherPaymentOrDeduction] -->

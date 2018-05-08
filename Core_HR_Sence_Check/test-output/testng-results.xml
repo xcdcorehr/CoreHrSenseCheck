@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.test.xcdhr.Core_HR_Sence_Check.SetupPersonalAddressNOKandQualificationForEmployee" duration-ms="233996" started-at="2018-04-26T13:20:08Z" finished-at="2018-04-26T13:24:02Z">
+    <groups>
+    </groups>
+    <test name="Setup personal address" duration-ms="87932" started-at="2018-04-26T13:20:08Z" finished-at="2018-04-26T13:21:36Z">
+      <class name="com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC001_SetupPersonalAddressAndVerify">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC001_SetupPersonalAddressAndVerify@780cb77]" name="setup" is-config="true" duration-ms="8489" started-at="2018-04-26T13:20:08Z" finished-at="2018-04-26T13:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC001_SetupPersonalAddressAndVerify@780cb77]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2018-04-26T13:20:17Z" finished-at="2018-04-26T13:20:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC001_SetupPersonalAddressAndVerify.loginAndClickMyDetail(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginAndClickMyDetail(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC001_SetupPersonalAddressAndVerify@780cb77]" name="loginAndClickMyDetail" duration-ms="30291" started-at="2018-04-26T13:20:17Z" data-provider="HrEmployeeInputSheet" finished-at="2018-04-26T13:20:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dntcorehree@xcdhr.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xcdhrms2018]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndClickMyDetail -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC001_SetupPersonalAddressAndVerify@780cb77]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-04-26T13:20:48Z" finished-at="2018-04-26T13:20:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC001_SetupPersonalAddressAndVerify.verifyAddressButtonAndClick() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyAddressButtonAndClick()[pri:0, instance:com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC001_SetupPersonalAddressAndVerify@780cb77]" name="verifyAddressButtonAndClick" duration-ms="11418" started-at="2018-04-26T13:20:48Z" depends-on-methods="com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC001_SetupPersonalAddressAndVerify.loginAndClickMyDetail" finished-at="2018-04-26T13:20:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddressButtonAndClick -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC001_SetupPersonalAddressAndVerify@780cb77]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-04-26T13:20:59Z" finished-at="2018-04-26T13:20:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC001_SetupPersonalAddressAndVerify.setupPersonalAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="setupPersonalAddress(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC001_SetupPersonalAddressAndVerify@780cb77]" name="setupPersonalAddress" duration-ms="34216" started-at="2018-04-26T13:20:59Z" data-provider="setupPersonalAddressData" depends-on-methods="com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC001_SetupPersonalAddressAndVerify.verifyAddressButtonAndClick" finished-at="2018-04-26T13:21:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[24/03/2018]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Elgin road]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Park street]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kolkata]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[KOL901]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Current home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPersonalAddress -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC001_SetupPersonalAddressAndVerify@780cb77]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-04-26T13:21:33Z" finished-at="2018-04-26T13:21:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC001_SetupPersonalAddressAndVerify.getPersonalData() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getPersonalData()[pri:0, instance:com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC001_SetupPersonalAddressAndVerify@780cb77]" name="getPersonalData" duration-ms="1354" started-at="2018-04-26T13:21:33Z" depends-on-methods="com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC001_SetupPersonalAddressAndVerify.setupPersonalAddress" finished-at="2018-04-26T13:21:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPersonalData -->
+        <test-method status="PASS" signature="endTest1()[pri:0, instance:com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC001_SetupPersonalAddressAndVerify@780cb77]" name="endTest1" is-config="true" duration-ms="981" started-at="2018-04-26T13:21:35Z" finished-at="2018-04-26T13:21:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest1 -->
+      </class> <!-- com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC001_SetupPersonalAddressAndVerify -->
+    </test> <!-- Setup personal address -->
+    <test name="Setup NOK" duration-ms="72419" started-at="2018-04-26T13:21:36Z" finished-at="2018-04-26T13:22:48Z">
+      <class name="com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC002_SetupNextOfKinAndVerify">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC002_SetupNextOfKinAndVerify@7c417213]" name="setup" is-config="true" duration-ms="6536" started-at="2018-04-26T13:21:36Z" finished-at="2018-04-26T13:21:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC002_SetupNextOfKinAndVerify@7c417213]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-04-26T13:21:43Z" finished-at="2018-04-26T13:21:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC002_SetupNextOfKinAndVerify.loginAndClickMyDetail(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginAndClickMyDetail(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC002_SetupNextOfKinAndVerify@7c417213]" name="loginAndClickMyDetail" duration-ms="28114" started-at="2018-04-26T13:21:43Z" data-provider="HrEmployeeInputSheet" finished-at="2018-04-26T13:22:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dntcorehree@xcdhr.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xcdhrms2018]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndClickMyDetail -->
+        <test-method status="PASS" signature="verifyNokButtonAndClick()[pri:0, instance:com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC002_SetupNextOfKinAndVerify@7c417213]" name="verifyNokButtonAndClick" duration-ms="11095" started-at="2018-04-26T13:22:11Z" depends-on-methods="com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC002_SetupNextOfKinAndVerify.loginAndClickMyDetail" finished-at="2018-04-26T13:22:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNokButtonAndClick -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC002_SetupNextOfKinAndVerify@7c417213]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-04-26T13:22:11Z" finished-at="2018-04-26T13:22:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC002_SetupNextOfKinAndVerify.verifyNokButtonAndClick() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC002_SetupNextOfKinAndVerify@7c417213]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-04-26T13:22:22Z" finished-at="2018-04-26T13:22:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC002_SetupNextOfKinAndVerify.setupNok(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="setupNok(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC002_SetupNextOfKinAndVerify@7c417213]" name="setupNok" duration-ms="25555" started-at="2018-04-26T13:22:22Z" data-provider="setupNextOfKinData" depends-on-methods="com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC002_SetupNextOfKinAndVerify.verifyNokButtonAndClick" finished-at="2018-04-26T13:22:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[James taylor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Brother]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupNok -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC002_SetupNextOfKinAndVerify@7c417213]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-04-26T13:22:47Z" finished-at="2018-04-26T13:22:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC002_SetupNextOfKinAndVerify.getNokData() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getNokData()[pri:0, instance:com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC002_SetupNextOfKinAndVerify@7c417213]" name="getNokData" duration-ms="727" started-at="2018-04-26T13:22:47Z" depends-on-methods="com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC002_SetupNextOfKinAndVerify.setupNok" finished-at="2018-04-26T13:22:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNokData -->
+        <test-method status="PASS" signature="endTest1()[pri:0, instance:com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC002_SetupNextOfKinAndVerify@7c417213]" name="endTest1" is-config="true" duration-ms="198" started-at="2018-04-26T13:22:48Z" finished-at="2018-04-26T13:22:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest1 -->
+      </class> <!-- com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC002_SetupNextOfKinAndVerify -->
+    </test> <!-- Setup NOK -->
+    <test name="Setup Qualification" duration-ms="73558" started-at="2018-04-26T13:22:48Z" finished-at="2018-04-26T13:24:02Z">
+      <class name="com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC003_SetupQualificationAndVerify">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC003_SetupQualificationAndVerify@19d37183]" name="setup" is-config="true" duration-ms="6418" started-at="2018-04-26T13:22:48Z" finished-at="2018-04-26T13:22:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC003_SetupQualificationAndVerify@19d37183]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-04-26T13:22:55Z" finished-at="2018-04-26T13:22:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC003_SetupQualificationAndVerify.loginAndClickMyDetail(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginAndClickMyDetail(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC003_SetupQualificationAndVerify@19d37183]" name="loginAndClickMyDetail" duration-ms="24711" started-at="2018-04-26T13:22:55Z" data-provider="HrEmployeeInputSheet" finished-at="2018-04-26T13:23:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dntcorehree@xcdhr.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xcdhrms2018]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndClickMyDetail -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC003_SetupQualificationAndVerify@19d37183]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-04-26T13:23:20Z" finished-at="2018-04-26T13:23:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC003_SetupQualificationAndVerify.verifyQualificationButtonAndClick() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyQualificationButtonAndClick()[pri:0, instance:com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC003_SetupQualificationAndVerify@19d37183]" name="verifyQualificationButtonAndClick" duration-ms="7702" started-at="2018-04-26T13:23:20Z" depends-on-methods="com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC003_SetupQualificationAndVerify.loginAndClickMyDetail" finished-at="2018-04-26T13:23:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyQualificationButtonAndClick -->
+        <test-method status="PASS" signature="setupQualification(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC003_SetupQualificationAndVerify@19d37183]" name="setupQualification" duration-ms="33517" started-at="2018-04-26T13:23:27Z" data-provider="setupQualificationData" depends-on-methods="com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC003_SetupQualificationAndVerify.verifyQualificationButtonAndClick" finished-at="2018-04-26T13:24:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Conference]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Made Easy]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[29/03/2018]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Park Srteet]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Months]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Completed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupQualification -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC003_SetupQualificationAndVerify@19d37183]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-04-26T13:23:27Z" finished-at="2018-04-26T13:23:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC003_SetupQualificationAndVerify.setupQualification(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC003_SetupQualificationAndVerify@19d37183]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-04-26T13:24:01Z" finished-at="2018-04-26T13:24:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC003_SetupQualificationAndVerify.getQualificationData() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getQualificationData()[pri:0, instance:com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC003_SetupQualificationAndVerify@19d37183]" name="getQualificationData" duration-ms="881" started-at="2018-04-26T13:24:01Z" depends-on-methods="com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC003_SetupQualificationAndVerify.setupQualification" finished-at="2018-04-26T13:24:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getQualificationData -->
+        <test-method status="PASS" signature="endTest1()[pri:0, instance:com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC003_SetupQualificationAndVerify@19d37183]" name="endTest1" is-config="true" duration-ms="162" started-at="2018-04-26T13:24:02Z" finished-at="2018-04-26T13:24:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest1 -->
+      </class> <!-- com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC003_SetupQualificationAndVerify -->
+    </test> <!-- Setup Qualification -->
+  </suite> <!-- com.test.xcdhr.Core_HR_Sence_Check.SetupPersonalAddressNOKandQualificationForEmployee -->
+</testng-results>

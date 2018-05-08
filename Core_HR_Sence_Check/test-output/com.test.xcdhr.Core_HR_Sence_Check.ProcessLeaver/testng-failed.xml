@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [com.test.xcdhr.Core_HR_Sence_Check.ProcessLeaver]">
+  <test thread-count="5" name="Verify process leaver(failed)">
+    <parameter name="lastWorkingDate" value="01/04/2018"/>
+    <parameter name="leaverSection" value="Leaver"/>
+    <parameter name="leavingDate" value="01/04/2018"/>
+    <classes>
+      <class name="com.test.xcdhr.Core_HR_Sence_Check.ProcessLeaver.TC001_VerifyProcessLeaver">
+        <methods>
+          <include name="verifyLeavingDate"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="endTest1"/>
+          <include name="searchLeaverEmployee"/>
+          <include name="verifyLastWorkingDate"/>
+          <include name="beforeMethod"/>
+          <include name="clickLeaverAndverifyLeaverSection" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.test.xcdhr.Core_HR_Sence_Check.ProcessLeaver.TC001_VerifyProcessLeaver -->
+    </classes>
+  </test> <!-- Verify process leaver(failed) -->
+</suite> <!-- Failed suite [com.test.xcdhr.Core_HR_Sence_Check.ProcessLeaver] -->

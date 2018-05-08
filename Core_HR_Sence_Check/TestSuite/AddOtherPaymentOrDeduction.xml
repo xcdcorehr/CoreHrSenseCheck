@@ -1,0 +1,65 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="com.test.xcdhr.Core_HR_Sence_Check.AddOherPaymentOrDeduction">
+
+
+<test name="Add other payment or deduction where benefit type is Allowance">
+    <parameter name="paymentDeductionType" value="Accommodation"/>
+	<parameter name="frequencyPayment" value="Monthly"/>
+    <parameter name="regularAmountOfPayment" value="2000"/>
+    <parameter name="effectiveFromDate" value="01/01/2018"/>
+    
+   
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sence_Check.AddOherPaymentOrDeduction.TC001_AddOtherPaymentOrDeductionBenefitTypeAllowance" ></class>  
+    </classes>
+</test>
+
+<test name="Verify other payment or deduction where benefit type is Allowance">
+    <parameter name="verifyRegularPaymentAmount" value="GBP 2,000.00"/>
+	<parameter name="verifyAnnualAmount" value="GBP 24,000.00"/>
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sence_Check.AddOherPaymentOrDeduction.TC001_VerifyOtherPaymentOrDeductionBenefitTypeAllowance" ></class>  
+    </classes>
+</test> 
+
+<test name="Add other payment or deduction where benefit type is benefit">
+    <parameter name="paymentDeductionType" value="Accommodation"/>
+	<parameter name="frequencyPayment" value="Monthly"/>
+    <parameter name="effectiveFromDate" value="15/12/2017"/>
+    <parameter name="employerContribution" value="500"/>
+    <parameter name="employeeContribution" value="400"/>
+    
+   
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sence_Check.AddOherPaymentOrDeduction.TC002_AddOtherPaymentOrDeductionBenefitTypeBenefit" ></class>  
+    </classes>
+</test>
+
+<test name="Verify other payment or deduction where benefit type is benefit">
+   
+	<parameter name="totalAnnualContribution" value="GBP 10,800.00"/>
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sence_Check.AddOherPaymentOrDeduction.TC002_VerifyOtherPaymentOrDeductionBenefitTypeBenefit" ></class>  
+    </classes>
+</test>
+
+ <test name="Add other payment or deduction where benefit type is deduction">
+    <parameter name="paymentDeductionType" value="Advance recovery"/>
+    <parameter name="regularAmountOfPayment" value="3000"/>
+    <parameter name="frequencyPayment" value="Monthly"/>
+    <parameter name="effectiveFromDate" value="01/01/2018"/>
+    
+   
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sence_Check.AddOherPaymentOrDeduction.TC003_AddOtherPaymentOrDeductionBenefitTypeDeduction" ></class>  
+    </classes>
+</test>
+
+ <test name="Verify other payment or deduction where benefit type is deduction">
+    <parameter name="verifyRegularPaymentAmount" value="GBP 3,000.00"/>
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sence_Check.AddOherPaymentOrDeduction.TC003_VerifyOtherPaymentOrDeductionBenefitTypeDeduction" ></class>  
+    </classes>
+</test>  
+
+</suite>

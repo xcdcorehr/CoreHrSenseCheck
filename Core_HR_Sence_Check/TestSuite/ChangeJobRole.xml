@@ -1,0 +1,78 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="com.test.xcdhr.Core_HR_Sence_Check.ChangeJobRole">
+
+
+ <!-- <test name="Change job role with pattern type RWPD">
+    <parameter name="jobTitle" value="Senior Tester"/>
+	<parameter name="startDate" value="01/03/2018"/>
+    
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sence_Check.ChangeJobRole.TC001_Change_JR_With_PatternType_RWPD" ></class>  
+    </classes>
+</test> 
+
+<test name="Verify Change job role with pattern type RWPD">
+    <parameter name="SecondJobTitle" value="Senior Tester"/>
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sence_Check.ChangeJobRole.TC001_Verify_Change_JR_With_PatternType_RWPD" ></class>  
+    </classes>
+</test>   -->
+
+
+   <test name="Change job role with pattern type RWPH">
+    <parameter name="jobTitle" value="Senior Tester"/>
+	<parameter name="startDate" value="01/03/2018"/>
+    <parameter name="empType" value="Part time"/>
+	<parameter name="employeePatternType" value="Regular work pattern - hours"/>
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sence_Check.ChangeJobRole.TC002_Change_JR_With_PatternType_RWPH" ></class>  
+    </classes>
+</test>
+
+<test name="Verify Change job role with pattern type RWPH">
+    <parameter name="SecondJobTitle" value="Senior Tester"/>
+   
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sence_Check.ChangeJobRole.TC002_Verify_Change_JR_With_PatternType_RWPH" ></class>  
+    </classes>
+</test>  
+
+ <!-- <test name="Change job role with pattern type ISP">
+    <parameter name="jobTitle" value="Senior Tester"/>
+	<parameter name="startDate" value="01/03/2018"/>
+    <parameter name="empType" value="Part time"/>
+	<parameter name="employeePatternType" value="Irregular shift pattern"/>
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sence_Check.ChangeJobRole.TC003_Change_JR_With_PatternType_ISP" ></class>  
+    </classes>
+</test>
+
+<test name="Verify Change job role with pattern type ISP">
+    <parameter name="SecondJobTitle" value="Senior Tester"/>
+   
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sence_Check.ChangeJobRole.TC003_Verify_Change_JR_With_PatternType_ISP" ></class>  
+    </classes>
+</test> -->
+
+<!-- <test name="Change job role with pattern type FWD">
+    <parameter name="jobTitle" value="Senior Tester"/>
+	<parameter name="startDate" value="01/03/2018"/>
+    <parameter name="empType" value="Part time"/>
+	<parameter name="employeePatternType" value="Flexible working days"/>
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sence_Check.ChangeJobRole.TC004_Change_JR_With_PatternType_FWD" ></class>  
+    </classes>
+</test>
+
+<test name="Verify Change job role with pattern type FWD">
+    <parameter name="SecondJobTitle" value="Senior Tester"/>
+   
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sence_Check.ChangeJobRole.TC004_Verify_Change_JR_With_PatternType_FWD" ></class>  
+    </classes>
+</test> -->
+
+ 
+ 
+</suite>

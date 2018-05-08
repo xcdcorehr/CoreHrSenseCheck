@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="com.test.xcdhr.Core_HR_Sence_Check.ProcessLeaver">
+
+
+ <test name="Process leaver">
+   <parameter name="noticeDate" value="01/04/2018"/>
+	<parameter name="dateOfLeaving" value="01/04/2018"/>
+    <parameter name="lastWorkingDay" value="01/04/2018"/>
+	<parameter name="leavingReason" value="Others"/>
+     <parameter name="lastPayRun" value="01/04/2018"/>
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sence_Check.ProcessLeaver.TC001_ProcessLeaver" ></class>  
+    </classes>
+</test> 
+
+ <test name="Verify process leaver">
+  
+  <parameter name="leaverSection" value="Leaver"/>
+	<parameter name="leavingDate" value="01/04/2018"/>
+    <parameter name="lastWorkingDate" value="01/04/2018"/>
+	
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sence_Check.ProcessLeaver.TC001_VerifyProcessLeaver" ></class>  
+    </classes>
+</test> 
+
+</suite>

@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="com.test.xcdhr.Core_HR_Sence_Check.AddOneOffPensionContribution">
+
+
+ <test name="Add one off pension contribution">
+ <parameter name="typeOfPension" value="Pension"/>
+	<parameter name="awardDate" value="01/02/2018"/>
+    <parameter name="payentEarliestDate" value="01/02/2018"/>
+    <parameter name="employerrContribution" value="100"/>
+    <parameter name="employeeeContribution" value="700"/>
+ 
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sence_Check.AddOneOffPensionContribution.TC001_AddOneOffPensionContribution" ></class>  
+    </classes>
+</test> 
+
+<test name="Verify one off pension contribution">
+   <parameter name="verifyEmployerContribution" value="GBP 100.00"/>
+	<parameter name="verifyEmployeeContribution" value="GBP 700.00"/>
+   
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sence_Check.AddOneOffPensionContribution.TC001_VerifyAddOneOffPensionContribution" ></class>  
+    </classes>
+</test>
+
+</suite>

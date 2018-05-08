@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [com.test.xcdhr.Core_HR_Sence_Check.AddOneOffPensionContribution]">
+  <test thread-count="5" name="Verify one off pension contribution(failed)">
+    <parameter name="verifyEmployeeContribution" value="GBP 700.00"/>
+    <parameter name="verifyEmployerContribution" value="GBP 100.00"/>
+    <classes>
+      <class name="com.test.xcdhr.Core_HR_Sence_Check.AddOneOffPensionContribution.TC001_VerifyAddOneOffPensionContribution">
+        <methods>
+          <include name="verifyEmployerContribution"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="endTest"/>
+          <include name="clickOnSearchedEmployeeAndRewardTab"/>
+          <include name="closeBrowser"/>
+          <include name="beforeMethod"/>
+          <include name="verifyOneOffPensionContributionAndClicked"/>
+          <include name="verifyEmployeeContribution"/>
+          <include name="searchEmployeeRecord"/>
+        </methods>
+      </class> <!-- com.test.xcdhr.Core_HR_Sence_Check.AddOneOffPensionContribution.TC001_VerifyAddOneOffPensionContribution -->
+    </classes>
+  </test> <!-- Verify one off pension contribution(failed) -->
+</suite> <!-- Failed suite [com.test.xcdhr.Core_HR_Sence_Check.AddOneOffPensionContribution] -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [com.test.xcdhr.Core_HR_Sence_Check.LeaveBookingForHrEmployee]">
+  <test thread-count="5" name="Approve leave request by manager(failed)">
+    <classes>
+      <class name="com.test.xcdhr.Core_HR_Sense_Check.ManagerTLapproveRejectReassignLR.TC001_ApproveLrAndVerify">
+        <methods>
+          <include name="endTest1"/>
+          <include name="verifyLRForDaysWorker"/>
+          <include name="ClickLeaveTabAndRecord"/>
+          <include name="setup"/>
+          <include name="loginAndClickMyTeamTab"/>
+          <include name="beforeMethod"/>
+          <include name="verifyApproveRejectAndApprove"/>
+        </methods>
+      </class> <!-- com.test.xcdhr.Core_HR_Sense_Check.ManagerTLapproveRejectReassignLR.TC001_ApproveLrAndVerify -->
+    </classes>
+  </test> <!-- Approve leave request by manager(failed) -->
+</suite> <!-- Failed suite [com.test.xcdhr.Core_HR_Sence_Check.LeaveBookingForHrEmployee] -->

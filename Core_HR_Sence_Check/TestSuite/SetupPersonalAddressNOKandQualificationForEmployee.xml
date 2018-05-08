@@ -1,0 +1,62 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="com.test.xcdhr.Core_HR_Sence_Check.SetupPersonalAddressNOKandQualificationForEmployee">
+
+
+ <test name="Setup personal address">
+    
+    <classes>
+       
+        <class name="com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC001_SetupPersonalAddressAndVerify" >
+       <methods>
+        <include name="loginAndClickMyDetail"/>
+		<include name="verifyAddressButtonAndClick"/>  
+		<include name="setupPersonalAddress"/>       
+       	<include name="getPersonalData"/> 
+       </methods>
+       
+       
+        </class>  
+   	
+    </classes>
+</test>  
+
+  <test name="Setup NOK">
+    
+    <classes>
+       
+        <class name="com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC002_SetupNextOfKinAndVerify" >
+       <methods>
+       <include name="loginAndClickMyDetail"/>
+		<include name="verifyNokButtonAndClick"/>  
+		<include name="setupNok"/>       
+       	<include name="getNokData"/> 
+       </methods>
+       
+       
+        </class>  
+   	
+    </classes>
+</test>  
+
+ <test name="Setup Qualification">
+    
+    <classes>
+       
+        <class name="com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrEmployee.TC003_SetupQualificationAndVerify" >
+       <methods>
+       <include name="loginAndClickMyDetail"/>
+		<include name="verifyQualificationButtonAndClick"/>  
+		<include name="setupQualification"/>       
+       	<include name="getQualificationData"/> 
+       </methods>
+       
+       
+        </class>  
+   	
+    </classes>
+</test> 
+ 
+
+
+
+</suite>

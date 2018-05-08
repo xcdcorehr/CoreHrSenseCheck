@@ -1,0 +1,53 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="com.test.xcdhr.Core_HR_Sence_Check.ChangeCompensation">
+
+
+<!-- <test name="Change compensation where period is monthly">
+    <parameter name="effectiveFrom" value="02/02/2018"/>
+	<parameter name="regularPay" value="2000"/>
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sence_Check.ChangeCompensation.TC001_ChangeCompensation_MonthlyPeriod_Via_RewardTab" ></class> 
+    </classes>
+</test>
+
+<test name="verify change compensation where period is monthly ">
+    <parameter name="secondCompensation" value="GBP 24,000.00"/>
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sence_Check.ChangeCompensation.TC001_Verify_ChangeCompensation_MonthlyPeriod_Via_RewardTab" ></class>  
+    </classes>
+</test>  -->
+
+
+<!-- <test name="Change compensation where period is Annual">
+    <parameter name="effectiveFrom" value="02/02/2018"/>
+	<parameter name="regularPay" value="30000"/>
+    <parameter name="regularPeriod" value="Annual"/>
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sence_Check.ChangeCompensation.TC002_ChangeCompensation_AnnualPeriod_Via_RewardTab" ></class>  
+    </classes>
+</test>
+
+<test name="Verify change compensation where period is Annual">
+    <parameter name="secondCompensation" value="GBP 30,000.00"/>
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sence_Check.ChangeCompensation.TC002_Verify_ChangeCompensation_AnnualPeriod_Via_RewardTab" ></class>  
+    </classes>
+</test> -->
+
+<test name="Change compensation where period is weekly">
+    <parameter name="effectiveFrom" value="02/02/2018"/>
+	<parameter name="regularPay" value="800"/>
+    <parameter name="regularPeriod" value="Weekly"/>
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sence_Check.ChangeCompensation.TC003_ChangeCompensation_WeeklyPeriod_Via_RewardTab" ></class>  
+    </classes>
+</test>
+
+<test name="Verify change compensation where period is weekly">
+    <parameter name="secondCompensation" value="GBP 41,600.00"/>
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sence_Check.ChangeCompensation.TC003_Verify_ChangeCompensation_WeeklyPeriod_Via_RewardTab" ></class>  
+    </classes> 
+</test>
+
+</suite>

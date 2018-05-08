@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [com.test.xcdhr.Core_HR_Sence_Check.SetupPersonalAddressNOKandQualificationForManager]">
+  <test thread-count="5" name="Setup personal address(failed)">
+    <classes>
+      <class name="com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrManager.TC001_SetupPersonalAddressAndVerify">
+        <methods>
+          <include name="endTest1"/>
+          <include name="setupPersonalAddress"/>
+          <include name="verifyAddressButtonAndClick"/>
+          <include name="loginAndClickMyDetail"/>
+          <include name="setup"/>
+          <include name="beforeMethod"/>
+          <include name="getPersonalData"/>
+        </methods>
+      </class> <!-- com.test.xcdhr.Core_HR_Sense_Check.SetupAddressNOKandQualificationForHrManager.TC001_SetupPersonalAddressAndVerify -->
+    </classes>
+  </test> <!-- Setup personal address(failed) -->
+</suite> <!-- Failed suite [com.test.xcdhr.Core_HR_Sence_Check.SetupPersonalAddressNOKandQualificationForManager] -->

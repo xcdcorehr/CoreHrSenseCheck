@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [com.test.xcdhr.Core_HR_Sence_Check.ChangeCompensation]">
+  <test thread-count="5" name="verify change compensation where period is monthly (failed)">
+    <parameter name="secondCompensation" value="GBP 24,000.00"/>
+    <classes>
+      <class name="com.test.xcdhr.Core_HR_Sence_Check.ChangeCompensation.TC001_Verify_ChangeCompensation_MonthlyPeriod_Via_RewardTab">
+        <methods>
+          <include name="searchCreatedEmployeeForChangeCompensation"/>
+          <include name="clickOnSearchedEmployeeAndVerifyRewardTab"/>
+          <include name="verifySecondCompensation"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setup"/>
+          <include name="beforeMethod"/>
+          <include name="verifySecondCompensationAndClickSecondCompensation"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.test.xcdhr.Core_HR_Sence_Check.ChangeCompensation.TC001_Verify_ChangeCompensation_MonthlyPeriod_Via_RewardTab -->
+    </classes>
+  </test> <!-- verify change compensation where period is monthly (failed) -->
+</suite> <!-- Failed suite [com.test.xcdhr.Core_HR_Sence_Check.ChangeCompensation] -->

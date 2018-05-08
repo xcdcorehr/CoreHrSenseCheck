@@ -1,0 +1,109 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="com.testhr.Core_HR_Sense_Check.JoinerProcess">
+ <!--  <test name="Joiner without existing user">
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sense_Check.JoinerProcess.TC001_SetupJoiner_WithLicenseWithoutExistingUser" ></class>  
+    </classes>
+</test>  -->
+
+<!-- <test name="Verify joiner without existing user">
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sense_Check.JoinerProcess.TC001_VerifyJoiner_WithLicenseWithoutExistingUser" ></class>  
+    </classes>
+</test> -->
+
+   <test name="Joiner with existing user and license is active">
+    <parameter name="existingUser" value="DO NOT TOUCH COREHR AUTOMATION EMP 102 FIROZ"/>
+	 <parameter name="jTitle" value="Tester"/>
+	 <parameter name="empStatus" value="Permanent"/>
+	 <parameter name="empManager" value="DO NOT TOUCH COREHR AUTOMATION EMP 105 FIROZ"/> 
+     <parameter name="empStartDate" value="01/01/2018"/>
+     <parameter name="empContineousStartDate" value="01/01/2018"/>
+	 <parameter name="empAddrFromDate" value="01/01/2018"/>
+	 <parameter name="addr1" value="Elgin Street"/>
+     <parameter name="empCity" value="Kolkata"/>
+  	 <parameter name="empPostCode" value="KOL901"/>
+	 <parameter name="empCountry" value="India"/>
+	 <parameter name="empAddrType" value="Current home"/>
+     <parameter name="empNOK" value="RK Sharma"/>
+	 <parameter name="empRegularPay" value="1000"/>
+	<parameter name="empPeriod" value="Monthly"/>
+    
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sense_Check.JoinerProcess.TC002_SetupJoiner_WithLicenseWithExistingUser" ></class>  
+    </classes>
+</test>   
+
+  <test name="Verify Joiner with existing user and license is active">
+   <parameter name="expectedJTitle" value="Tester"/>
+	<parameter name="expectedAnnualSal" value="GBP 12,000.00"/>
+   
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sense_Check.JoinerProcess.TC002_VerifyJoiner_WithLicenseWithExistingUser" ></class>  
+    </classes>
+</test>    
+
+  <!--  <test name="Joiner with existing user and license is Inactive">
+    <parameter name="licenseActivate" value="No"/>
+     <parameter name="existingUser" value="DO NOT TOUCH COREHR AUTOMATION EMP 103 FIROZ"/>
+	<parameter name="jTitle" value="Tester"/>
+	 <parameter name="empStatus" value="Permanent"/>
+	<parameter name="empManager" value="DO NOT TOUCH COREHR AUTOMATION EMP 105 FIROZ"/>
+   <parameter name="empStartDate" value="01/01/2018"/>
+	<parameter name="empContineousStartDate" value="01/01/2018"/>
+	 <parameter name="empAddrFromDate" value="01/01/2018"/>
+	<parameter name="addr1" value="Elgin Street"/>
+   <parameter name="empCity" value="Kolkata"/>
+	<parameter name="empPostCode" value="KOL901"/>
+	 <parameter name="empCountry" value="India"/>
+	<parameter name="empAddrType" value="Current home"/>
+   <parameter name="empNOK" value="RK Sharma"/>
+	<parameter name="empRegularPay" value="1000"/>
+	<parameter name="empPeriod" value="Monthly"/>
+    
+    
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sense_Check.JoinerProcess.TC003_SeupJoinerWithoutLicenseWithExistingUser" ></class>  
+    </classes>
+</test>
+
+<test name="Verify Joiner with existing user and license is Inactive">
+   <parameter name="expectedJTitle" value="Tester"/>
+	<parameter name="expectedAnnualSal" value="GBP 12,000.00"/>
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sense_Check.JoinerProcess.TC003_VerifyJoinerWithoutLicenseWithExistingUser" ></class>  
+    </classes>
+</test> 
+  -->
+ <!--  <test name="Joiner with existing with add benefits">
+    <parameter name="licenseActivate" value="No"/>
+    <parameter name="existingUser" value="DO NOT TOUCH COREHR AUTOMATION EMP 104 FIROZ"/>
+	<parameter name="jTitle" value="Tester"/>
+	<parameter name="empStatus" value="Permanent"/>
+	<parameter name="empManager" value="DO NOT TOUCH COREHR AUTOMATION EMP 105 FIROZ"/>
+    <parameter name="empStartDate" value="01/01/2018"/>
+	<parameter name="empContineousStartDate" value="01/01/2018"/>
+	<parameter name="empAddrFromDate" value="01/01/2018"/>
+	<parameter name="addr1" value="Elgin Street"/>
+    <parameter name="empCity" value="Kolkata"/>
+	<parameter name="empPostCode" value="KOL901"/>
+	<parameter name="empCountry" value="India"/>
+	<parameter name="empAddrType" value="Current home"/>
+    <parameter name="empNOK" value="RK Sharma"/>
+	<parameter name="empRegularPay" value="1000"/>
+	<parameter name="empPeriod" value="Monthly"/>
+	<parameter name="schemeName" value="Test benefit"/>
+	<parameter name="employerContribution" value="350"/>
+	<parameter name="employeeContribution" value="450"/>
+    
+    
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sense_Check.JoinerProcess.TC004_SetupJoinerWithAddBenefit" ></class>  
+    </classes>
+</test>
+  -->
+ 
+ 
+</suite>
+

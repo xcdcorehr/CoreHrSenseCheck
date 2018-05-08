@@ -1,0 +1,41 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="com.test.xcdhr.Core_HR_Sence_Check.LeaveBookingForHrEmployee">
+
+
+ <test name="Annual leave booking for HR Employee">
+    
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sense_Check.HrEmployeeLeaveBooking.TC001_BookAnnualLeaveForDaysWorkerAndVerify" ></class>  
+    </classes>
+</test>    
+
+
+<!--  <test name="Sick leave booking for HR Employee">
+    
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sense_Check.HrEmployeeLeaveBooking.TC002_BookSickLeaveForDaysWorkerAndVerify" ></class>  
+    </classes>
+</test>  -->
+<!-- 
+ <test name="Open Sick leave booking for HR Employee">
+    
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sense_Check.HrEmployeeLeaveBooking.TC003_BookOpenSickLeaveForDaysWorkerAndVerify" ></class>  
+    </classes>
+</test>  
+
+ <test name="Annual leave for hours worker ">
+    
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sense_Check.HrEmployeeLeaveBooking.TC004_BookAnnualLeaveForHoursWorkerAndVerify" ></class>  
+    </classes>
+</test>  
+<test name="Cancel leave request and verify ">
+    
+    <classes>
+        <class name="com.test.xcdhr.Core_HR_Sense_Check.HrEmployeeLeaveBooking.TC005_CancelAnnualLeaveAndVerify" ></class>  
+    </classes>
+</test>  -->
+
+
+</suite>

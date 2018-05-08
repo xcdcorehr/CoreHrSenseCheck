@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [com.testhr.Core_HR_Sense_Check.JoinerProcess]">
+  <test thread-count="5" name="Joiner without existing user(failed)">
+    <classes>
+      <class name="com.test.xcdhr.Core_HR_Sense_Check.JoinerProcess.TC001_SetupJoiner_WithLicenseWithoutExistingUser">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="setupPersonalSection" invocation-numbers="0"/>
+          <include name="endTest1"/>
+          <include name="companyTabclick"/>
+          <include name="clickDNTcoreHRComp"/>
+          <include name="beforeMethod"/>
+          <include name="clickGO"/>
+          <include name="clicnNewJoinerButton"/>
+        </methods>
+      </class> <!-- com.test.xcdhr.Core_HR_Sense_Check.JoinerProcess.TC001_SetupJoiner_WithLicenseWithoutExistingUser -->
+    </classes>
+  </test> <!-- Joiner without existing user(failed) -->
+</suite> <!-- Failed suite [com.testhr.Core_HR_Sense_Check.JoinerProcess] -->
